@@ -48,7 +48,7 @@ mysql -uroot -p -e "flush privileges"
 ```
 ##### Update Replication configuration
 ```
-sed -i 's/^wsrep_cluster_address=.*/wsrep_cluster_address=gcomm:\/\/172.42.42.101,172.42.42.102/' /etc/mysql/my.cnf
+sed -i 's/^wsrep_cluster_address=.*/wsrep_cluster_address=gcomm:\/\/172.31.30.255,172.31.46.101,172.31.15.34/' /etc/mysql/my.cnf
 ```
 
 ### On Second node
